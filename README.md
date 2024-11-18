@@ -1,29 +1,35 @@
-# AgendablueFront
+README - Projeto Frontend Agenda de Contatos
+Descrição do Projeto
+Este é o frontend de uma aplicação de Agenda de Contatos que permite ao usuário criar, visualizar, editar e excluir contatos. O projeto foi desenvolvido utilizando o framework Vue 3, com integração à biblioteca PrimeVue para componentes de UI, e se comunica com um backend desenvolvido em .NET via requisições HTTP.
 
-This template should help get you started developing with Vue 3 in Vite.
+Funcionalidades
+Listar Contatos: Exibe todos os contatos cadastrados.
+Adicionar Contato: Permite adicionar um novo contato com validação de campos.
+Editar Contato: Atualiza informações de um contato existente.
+Remover Contato: Exclui permanentemente um contato.
+Buscar Contatos: Filtra contatos pelo nome, e-mail ou telefone.
 
-## Recommended IDE Setup
+Tecnologias Utilizadas
+Frontend
+Vue.js 3
+PrimeVue (componentes de UI)
+Axios (requisições HTTP)
+Backend (dependência)
+.NET Core
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Pré-requisitos
+Node.js (versão 16 ou superior)
+Gerenciador de pacotes npm ou yarn.
 
-## Customize configuration
+Instalação
+Clone o repositório do projeto:
+git clone https://github.com/seu-usuario/agenda-contatos-frontend.git
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Acesse o diretório do projeto:
+cd agenda-contatos-frontend
 
-## Project Setup
-
-```sh
+Instale as dependências:
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+Inicie o servidor de desenvolvimento:
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
