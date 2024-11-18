@@ -23,7 +23,7 @@ Gerenciador de pacotes npm ou yarn.
 
 Instalação
 Clone o repositório do projeto:
-git clone https: https://github.com/seu-usuario/agenda-contatos-frontend.git](https://github.com/Deep607/AgendaBlueFront
+git clone https://github.com/Deep607/AgendaBlueFront
 
 Acesse o diretório do projeto:
 cd agenda-contatos-frontend
